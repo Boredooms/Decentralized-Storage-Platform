@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type: static
     name: destore
     buildCommand: npm ci --legacy-peer-deps && npm run build
     staticPublishPath: ./dist
