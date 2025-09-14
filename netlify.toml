@@ -1,11 +1,13 @@
 [build]
   command = "npm install && npm run build"
   publish = "dist"
+  ignore = "git log -1 --pretty=%B | grep -q '\[skip netlify\]'"
 
 [build.environment]
   NODE_VERSION = "18.17.0"
-  NPM_FLAGS = "--force"
+  NPM_FLAGS = "--legacy-peer-deps"
   CI = "false"
+  SKIP_PREFLIGHT_CHECK = "true"
 
 [[redirects]]
   from = "/*"
