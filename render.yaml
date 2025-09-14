@@ -1,9 +1,8 @@
 services:
   - type: web
     name: destore
-    runtime: node
     buildCommand: npm ci --legacy-peer-deps && npm run build
-    startCommand: npm run start
+    staticPublishPath: ./dist
     envVars:
       - key: NODE_VERSION
         value: "18.17.0"
@@ -13,7 +12,6 @@ services:
         value: "false"
       - key: SKIP_PREFLIGHT_CHECK
         value: "true"
-    staticPublishPath: ./dist
     routes:
       - type: rewrite
         source: /*
