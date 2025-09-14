@@ -59,7 +59,7 @@
 
 ## 📋 Prerequisites
 
-- **Node.js** 18+ and npm/pnpm
+- **Node.js** 18+ and npm
 - **MetaMask** browser extension
 - **Git** for version control
 
@@ -74,8 +74,6 @@ cd destore
 ### 2. Install Dependencies
 ```bash
 npm install
-# or
-pnpm install
 ```
 
 ### 3. Environment Setup
@@ -117,8 +115,6 @@ npx hardhat run scripts/deploy.cjs --network localhost
 ### 6. Start Development Server
 ```bash
 npm run dev
-# or
-pnpm dev
 ```
 
 ### 7. Configure MetaMask

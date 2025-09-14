@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: destore
+    runtime: node
+    buildCommand: npm ci --legacy-peer-deps && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: "18.17.0"
+      - key: NPM_CONFIG_LEGACY_PEER_DEPS
+        value: "true"
+      - key: CI
+        value: "false"
+      - key: SKIP_PREFLIGHT_CHECK
+        value: "true"
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

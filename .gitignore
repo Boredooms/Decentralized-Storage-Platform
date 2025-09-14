@@ -40,9 +40,6 @@ coverage/
 # Optional npm cache directory
 .npm
 
-# Optional eslint cache
-.eslintcache
-
 # Vite
 .vite/
 
@@ -68,30 +65,5 @@ deployed-addresses.json
 # Local blockchain
 .secret
 
-# Python (if any Python tools used in build)
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-PIPFILE.lock
-
-# Convex (completely removed)
-convex.json
-convex/
-.convex/
+# Render deployment
+.render/
