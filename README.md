@@ -360,12 +360,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Ethereum Foundation** for blockchain infrastructure
-- **IPFS Protocol Labs** for decentralized storage
-- **OpenZeppelin** for secure smart contract standards
-- **Radix UI** for accessible components
-- **Clerk** for authentication infrastructure
-- **Supabase** for backend services
+- **Ethereum Foundation** for blockchain infrastructure.
+- **IPFS Protocol Labs** for decentralized storage.
+- **OpenZeppelin** for secure smart contract standards.
+- **Radix UI** for accessible components.
+- **Clerk** for authentication infrastructure.
+- **Supabase** for backend services.
 
 ## 📞 Support
 
